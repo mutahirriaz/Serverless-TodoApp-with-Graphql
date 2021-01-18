@@ -87,12 +87,6 @@
         flex-direction: column;
     }
 }
-/* .loader{
-    height: 100vh;
-    width: 100vw;
-    align-items: center;
-    flex-direction: column;
-} */
 .loader {
     display: flex;
     height: 100vh;
