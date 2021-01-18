@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.add_task_div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.input input{ 
+
+    text-align: center;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+}
+.add_btn{
+    width: 100px;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(34,54,79);
+    background: linear-gradient(94deg, rgba(34,54,79,1) 0%, rgba(172,47,47,1) 0%, rgba(2,34,115,1) 100%, rgba(1,19,23,1) 100%);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none !important;
+    font-weight: bold;
+}
+.task_main_div{
+    display: flex;
+    flex-direction: row;
+    max-width: 500px;
+    width: 100%;
+    margin: 10px auto;
+    height: 100%;
+    justify-content: space-evenly !important;
+    text-align: center;
+    background-color: rgb(36, 182, 182);
+    border-radius: 5px;
+}
+.todo_task_div{
+    max-width: 350px;
+    width: 100%;
+    border-radius: 5px;
+}
+.task_p{
+    height: 50px;
+    max-height: 100%;
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: bold;
+}
+
+
+.deleteTask_icon{
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+}
+.updateTask_icon{
+    background-color: transparent;
+    border: none;
+    border: none;
+    cursor: pointer;
+}
+.todo_icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly !important;
+    margin-left: 30px;
+    /* text-align: right; */
+}
+@media (max-Width:300px){
+    .task_main_div{
+        flex-direction: column;
+    }
+}
+/* .loader{
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    flex-direction: column;
+} */
+.loader {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden !important;
+    overflow-y: hidden !important;
+}
+*{
+    overflow: hidden;
+}
