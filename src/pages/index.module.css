@@ -1,10 +1,17 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+.heading{
+    text-align: center;
+ 
+    
+    font-family: 'Roboto', sans-serif !important;
+}
+.main_div{
+    margin-top: 0px;
+}
 .add_task_div{
     display: flex;
     justify-content: space-between;
-    padding-top: 30px;
     flex-direction: column;
     max-width: 400px;
     margin: 0px auto;
@@ -14,8 +21,8 @@
 
     text-align: center;
     font-family: 'Roboto', sans-serif !important;
-    font-weight: bold;
-}
+    font-weight: bold;}
+
 .add_btn{
     width: 100px;
     margin: 10px auto;
@@ -47,7 +54,7 @@
     border-radius: 5px;
 }
 .task_p{
-    height: 50px;
+    height: 30px;
     max-height: 100%;
     align-items: center;
     display: flex;
@@ -97,4 +104,7 @@
 }
 *{
     overflow: hidden;
+    box-sizing: border-box;
+    /* margin: 0px; */
+    padding: 0px;
 }
